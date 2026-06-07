@@ -57,13 +57,24 @@ const Products = () => (
       </div>
 
       <h3 className="text-2xl font-semibold text-foreground mb-6 text-center">Pills & Capsules</h3>
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mb-16">
-        {pills.map((p) => <ProductCard key={p.name} {...p} />)}
+      <div className="flex flex-wrap justify-center gap-6 mb-16">
+        {pills.map((p) => (
+          <div
+            key={p.name}
+            className="w-[calc(50%-12px)] md:w-[calc(33.333%-16px)] lg:w-[calc(25%-18px)]"
+          >
+            <ProductCard {...p} />
+          </div>
+        ))}
       </div>
 
       <h3 className="text-2xl font-semibold text-foreground mb-6 text-center">Bottles & Syrups</h3>
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 max-w-4xl mx-auto">
-        {bottles.map((p) => <ProductCard key={p.name} {...p} />)}
+      <div className="flex flex-wrap justify-center gap-6 max-w-3xl mx-auto">
+        {bottles.map((p) => (
+          <div key={p.name} className="w-full sm:w-[calc(50%-12px)]">
+            <ProductCard {...p} />
+          </div>
+        ))}
       </div>
     </div>
   </section>
