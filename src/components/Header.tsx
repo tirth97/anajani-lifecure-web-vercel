@@ -21,7 +21,7 @@ const Header = () => {
               <span className="text-primary-foreground font-bold text-lg">A</span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-foreground leading-tight">Anjani Lifecure Sciences</h1>
+              <span className="text-xl font-bold text-foreground leading-tight">Anjani Lifecure Sciences</span>
             </div>
           </a>
 

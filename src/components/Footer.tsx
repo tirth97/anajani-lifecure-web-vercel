@@ -21,7 +21,7 @@ const Footer = () => {
                 <span className="text-primary-foreground font-bold text-lg">A</span>
               </div>
               <div>
-                <h3 className="text-lg font-bold text-foreground">Anjani Lifecure Sciences</h3>
+                <span className="text-lg font-bold text-foreground">Anjani Lifecure Sciences</span>
               </div>
             </div>
             <p className="text-muted-foreground text-sm italic">
