@@ -16,10 +16,10 @@ const About = () => {
   ];
 
   const stats = [
-    { num: "10+", label: "Years" },
-    { num: "5", label: "Hospitals" },
+    { num: "25+", label: "Years" },
+    { num: "4+", label: "Cities" },
+    { num: "20+", label: "Hospitals" },
     { num: "14", label: "Products" },
-    { num: "2", label: "People" },
   ];
 
   return (
